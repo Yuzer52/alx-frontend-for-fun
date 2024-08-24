@@ -180,20 +180,17 @@
   /* Grid
       ============================= */
   
+  .row {
+    display: flex;
+  }    
+
   ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  .row::after {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  
   [class*='col-'] {
-    float: left;
     padding: 0.5rem;
   }
   
@@ -260,9 +257,9 @@
   
   .header {
     padding: var(--header-padding);
-         position: relative;
-         z-index: 3;
-         background: transparent;
+    position: relative;
+    z-index: 3;
+    background: transparent;
   }
   
   .header-logo {
@@ -501,4 +498,3 @@
     font-size: 10rem;
     z-index: -1;
   }
-    
