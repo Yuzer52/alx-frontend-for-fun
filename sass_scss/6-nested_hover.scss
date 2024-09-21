@@ -1,4 +1,10 @@
-/* a Sass file that assigns*/
+/* 
+   A Sass file that assigns:
+   - Text color #FF0000 to button tags
+   - When the user hovers over button tags, the text color should change to #00FF00
+   - Nested declarations are used as required
+*/
+
 button {
   color: #FF0000;
 
