@@ -1,4 +1,7 @@
-/* Nested hover change button color on hover */
+/* A Sass file that assigns:
+Text color #3D3D3D to elements inside body tags
+Text color #FF0000 to any elements of class .red that are the first children of the body
+You must use nested declarations */
 
 button {
     color: #FF0000;
