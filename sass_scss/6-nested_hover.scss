@@ -1,12 +1,12 @@
 /* A Sass file that assigns:
-Text color #3D3D3D to elements inside body tags
-Text color #FF0000 to any elements of class .red that are the first children of the body
-You must use nested declarations */
+   - Text color #FF0000 to button tags
+   - Text color #00FF00 when the user hovers over button tags
+   You must use nested declarations */
 
 button {
-    color: #FF0000;
+  color: #FF0000;
 
-    &:hover {
-        color: #00FF00;
-    }
+  &:hover {
+    color: #00FF00;
+  }
 }
